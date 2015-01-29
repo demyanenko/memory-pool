@@ -1,7 +1,8 @@
 #ifndef _POOL_H
 #define _POOL_H
 
-#include "defines.h"
+#include "stddef.h"
+#include "kernel.h"
 
 struct __pool_node {
 	struct __pool_node *next;
